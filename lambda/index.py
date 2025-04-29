@@ -12,7 +12,7 @@ def lambda_handler(event, context):
         print("Processing message:", message)
         
         # Colabで立てたAPIのURL（ここを自分のものに変えてね）
-        api_url = "https://xxx-xxx-xxx.ngrok-free.app/generate"
+        api_url = "https://dfb9-35-196-76-0.ngrok-free.app/generate"
         
         # APIに送るデータ
         payload = json.dumps({"prompt": message}).encode('utf-8')
