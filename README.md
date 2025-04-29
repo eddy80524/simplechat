@@ -38,7 +38,18 @@ Amazon Bedrock を使用したチャットボットアプリケーションで�
 * Cross Region Inferenceが有効となっているリージョンを推奨します。
 * アクセス許可がない状態で環境をセットアップした場合、チャットボットは500エラーを返します。
 
+### 1. CloudShell環境設定
+演習では利用環境を統一するためにCloudShellを利用します。(適切な設定を行えば、ターミナルからの利用も可能です。) <br>
+CloudShellを利用する場合、割り当てられるストレージ容量の関係で、以下の手順に従い /tmp配下で実施してください。
 
+```bash
+mkdir /tmp/testdir 
+cd /tmp/testdir/
+export npm_config_cache=/tmp/npm-cache
+export npm_config_prefix=/tmp/npm-global
+sudo npm install -g aws-cdk@latest
+
+```
 ### 1. リポジトリのクローン
 
 ```
