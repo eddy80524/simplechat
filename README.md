@@ -56,6 +56,12 @@ sudo npm install -g aws-cdk@latest
 git clone https://github.com/keisskaws/simplechat
 cd simplechat
 ```
+1. 自分のリポジトリのクローン
+```
+cd /tmp/testdir/
+git clone https://github.com/eddy80524/simplechat.git
+cd simplechat
+```
 
 ### 2. CDK プロジェクトの依存関係 && フロントエンドのビルド
 ```
